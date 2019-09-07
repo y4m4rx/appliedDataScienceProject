@@ -2,6 +2,7 @@
 
 
 **Raw data source**: https://etherscan.io/charts
+**Raw data source**: https://www.blockchain.com/charts/market-price?timespan=all
 
 **Helpful Links**: :grin:
 - https://towardsdatascience.com/machine-learning-general-process-8f1b510bd8af
