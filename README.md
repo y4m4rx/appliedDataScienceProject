@@ -10,25 +10,44 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 
 **Features**:
 - Date(UTC)
+-- Date of Record
 - UnixTimeStamp
+-- UnixTimeStamp of Record
 - Supply
+-- cummulatet amout of Ether
 - MarketCap
+-- Volume of all Ether in $ for the Record
 - Price
+-- Curren Price per Ether for the Record
 - addressCount
+-- Curren Addresses at time of Record
 - txGrowth
+-- How many new addresses were registered a the time of Record
 - networkHash
+-- ?
 - networkUtilization
+-- ?
 - transactionFee
+-- How much Transaction fee in average was on that Record
 - avgGasPrice
+-- Average Gas Price per Transaction
 - blockCountReward
+-- average block Reward for time of Record
 - blockSize
+-- averege block time for Record
 - blockTime
+-- Average block Time for the record (how long dose it take to "mine" one block)
 - ethersupply
+-- ?
 - gasLimit
+-- Average gas Limit for time of Recrod
 - gasUsed
+-- How much Gas was actually used
 - uncles
+-- How many uncles had the block (Uncles are blocks that are mined in parallel)
 **optional**:
 - btcPrice
+-- Bitcoin price for the record --> just out of curiosity
 -------------------------------------------------------------------
 
 **STEPS**:
