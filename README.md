@@ -11,3 +11,19 @@ Helpful Links:
 5. https://www.kaggle.com/someadityamandal/bitcoin-time-series-forecasting
 6. https://www.youtube.com/watch?v=KvZ2KSxlWBY&t=752s
 
+
+STEPS:
+1. Download raw data from https://etherscan.io/charts
+2. Merge data (code uploaded)
+3. Data Cleaning (Missing Values)
+4. Explore & Handling the Data
+  - Visualizations
+  - Correlations
+  - Handling outliers
+  - Normilization
+5. One-hot encoding for categorical data
+6. Feature Selection
+7. Grid search to determine the model hyper-parameters
+8. Prediction models
+9. Evaluation
+10. Documentation
