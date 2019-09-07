@@ -27,7 +27,7 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 - gasLimit
 - gasUsed
 - uncles
-- btcPrice'
+- btcPrice
 -------------------------------------------------------------------
 
 **STEPS**:
