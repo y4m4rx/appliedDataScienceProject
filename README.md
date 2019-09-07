@@ -19,10 +19,10 @@
 2. Merge data (code uploaded)
 3. Data Cleaning (Missing Values)
 4. Explore & Handling the Data
-  1. Visualizations
-  2. Correlations
-  3. Handling outliers
-  4. Normilization
+  - Visualizations
+  - Correlations
+  - Handling outliers
+  - Normilization
 5. One-hot encoding for categorical data
 6. Feature Selection
 7. Grid search to determine the model hyper-parameters
