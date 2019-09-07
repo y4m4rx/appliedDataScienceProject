@@ -1,7 +1,7 @@
 # appliedDataScienceProject
 
 
-**Raw data source**: https://etherscan.io/charts & XXXX(yasin)
+**Raw data source**: https://etherscan.io/charts & https://www.investing.com/crypto/bitcoin/historical-data
 
 **Helpful Links**: :grin:
 - https://towardsdatascience.com/machine-learning-general-process-8f1b510bd8af
