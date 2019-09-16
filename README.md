@@ -1,4 +1,4 @@
-# appliedDataScienceProject
+# Applied Data Science Project
 
 
 **Problem Statement**:
