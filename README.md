@@ -70,6 +70,7 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 **Raw data source**: https://etherscan.io/charts & https://www.investing.com/crypto/bitcoin/historical-data
 
 **Helpful Links**: :grin:
+- https://otexts.com/fpp2/
 - https://towardsdatascience.com/machine-learning-general-process-8f1b510bd8af
 - https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20130428&end=20190612
 - https://www.kaggle.com/arsenalist/bitcoin-prices-prediction
