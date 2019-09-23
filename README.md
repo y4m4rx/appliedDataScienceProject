@@ -2,11 +2,17 @@
 
 
 **Problem Statement**:
-Predicting the Closing price of a stock is a commun field for ml. 
-Predicting the Ethereum Price based on its network data is an interesting problem. 
+Predicting the price of a stock is a commun field for ml. 
+Our problem setting is to predict the Ethereum Price for the next day, week and month based on its network data is an interesting problem. 
 For that we want to use different Forcasting Methods an want to evaluate them. Also we want to know which of the features are the most relevant ones. 
 
 **Target Variable**: Ethereum Price
+
+**Models**:
+- Autoregressive Integrated Moving Average (ARIMA)
+- LSTM
+- Holt Winter’s Exponential Smoothing (HWES) 
+- FB Prophet
 
 **Features**:
 - Date(UTC)
@@ -47,7 +53,6 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 -- How many uncles had the block (Uncles are blocks that are mined in parallel)
 **optional**:
 - btcPrice
--- Bitcoin price for the record --> just out of curiosity
 -------------------------------------------------------------------
 
 **STEPS**:
@@ -62,15 +67,17 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 5. One-hot encoding for categorical data
 6. Feature Selection
 7. Grid search to determine the model hyper-parameters
-8. Prediction models
-9. Evaluation
-10. Documentation
+8. Stationarity of data
+9. Prediction models
+10. Evaluation
 -------------------------------------------------------------------
 
 **Raw data source**: https://etherscan.io/charts & https://www.investing.com/crypto/bitcoin/historical-data
 
 **Helpful Links**: :grin:
 - https://otexts.com/fpp2/
+- https://www.youtube.com/watch?v=JntA9XaTebs
+- https://www.youtube.com/playlist?list=PL8eNk_zTBST-dRBPxVlqsQjFVYB_IPaAR
 - https://towardsdatascience.com/machine-learning-general-process-8f1b510bd8af
 - https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20130428&end=20190612
 - https://www.kaggle.com/arsenalist/bitcoin-prices-prediction
@@ -80,4 +87,10 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 - https://machinelearningmastery.com/time-series-forecasting/
 - https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/
 - https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
+
+**libraries**:
+- https://github.com/facebook/prophet/issues/892
+- https://github.com/keras-team/keras/issues/4889
+- https://github.com/tensorflow/tensorflow/issues/27935
 -------------------------------------------------------------------
+
