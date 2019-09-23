@@ -15,20 +15,16 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 - FB Prophet
 
 **Features**:
-- Date(UTC)
+- Date (UTC)
 -- Date of Record
-- UnixTimeStamp
--- UnixTimeStamp of Record
 - Supply
 -- cummulatet amout of Ether
-- MarketCap
--- Volume of all Ether in $ for the Record
-- Price
--- Curren Price per Ether for the Record
 - addressCount
--- Curren Addresses at time of Record
+-- Current Addresses at time of Record
 - txGrowth
 -- How many new addresses were registered a the time of Record
+- Difficulty
+-- ?
 - networkHash
 -- ?
 - networkUtilization
@@ -51,8 +47,10 @@ For that we want to use different Forcasting Methods an want to evaluate them. A
 -- How much Gas was actually used
 - uncles
 -- How many uncles had the block (Uncles are blocks that are mined in parallel)
-**optional**:
 - btcPrice
+-- ?
+- Price
+-- Curren Price per Ether for the Record
 -------------------------------------------------------------------
 
 **STEPS**:
